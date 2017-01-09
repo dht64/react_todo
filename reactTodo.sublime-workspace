@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"Todo",
+				"TodoSearch"
+			],
+			[
+				"sear",
+				"searchText"
+			],
+			[
+				"show",
+				"showCompleted"
+			],
+			[
+				"todo",
+				"todoText"
+			],
+			[
+				"render",
+				"renderTodos"
+			],
+			[
 				"margi",
 				"margin"
 			],
@@ -86,10 +106,6 @@
 			[
 				"unde",
 				"undefined〔keyword〕"
-			],
-			[
-				"render",
-				"renderError"
 			],
 			[
 				"Err",
@@ -498,27 +514,28 @@
 			[
 				"back",
 				"background-color"
-			],
-			[
-				"wid",
-				"width"
-			],
-			[
-				"c",
-				"center"
-			],
-			[
-				"required",
-				"required_m_qty"
-			],
-			[
-				"requi",
-				"required_m_qty"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "app/components/TodoApp.jsx",
+			"settings":
+			{
+				"buffer_size": 953,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/playground/spread.js",
+			"settings":
+			{
+				"buffer_size": 62,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -581,10 +598,28 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/htdocs/reactTodo"
+		"/C/xampp/htdocs/reactTodo",
+		"/C/xampp/htdocs/reactTodo/app",
+		"/C/xampp/htdocs/reactTodo/app/components",
+		"/C/xampp/htdocs/reactTodo/app/playground",
+		"/C/xampp/htdocs/reactTodo/app/tests",
+		"/C/xampp/htdocs/reactTodo/app/tests/components"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/reactTodo/app/playground/spread.js",
+		"/C/xampp/htdocs/reactTodo/app/components/TodoSearch.jsx",
+		"/C/xampp/htdocs/reactTodo/app/tests/components/TodoSearch.test.jsx",
+		"/C/xampp/htdocs/reactTodo/app/components/TodoList.jsx",
+		"/C/xampp/htdocs/reactTodo/app/components/Todo.jsx",
+		"/C/xampp/htdocs/reactTodo/app/tests/components/TodoList.test.jsx",
+		"/C/xampp/htdocs/reactTodo/app/app.jsx",
+		"/C/xampp/htdocs/reactTodo/app/tests/components/AddTodo.test.jsx",
+		"/C/xampp/htdocs/reactTodo/app/components/AddTodo.jsx",
+		"/C/xampp/htdocs/reactTodo/webpack.config.js",
+		"/C/xampp/htdocs/reactTodo/app/tests/components/Todo.test.jsx",
+		"/C/xampp/htdocs/reactTodo/app/tests/components/TodoApp.test.jsx",
+		"/C/xampp/htdocs/reactTodo/readme.md",
 		"/C/xampp/htdocs/reactBoilerplate3/app/app.jsx",
 		"/C/xampp/htdocs/reactBoilerplate3/app/styles/base/_variables.scss",
 		"/C/xampp/htdocs/reactBoilerplate3/app/styles/app.scss",
@@ -699,20 +734,7 @@
 		"/C/xampp/htdocs/lavina_erp/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOneOrMany.php",
 		"/C/xampp/htdocs/lavina_erp/app/Order.php",
 		"/C/xampp/htdocs/lavina_erp/database/migrations/2016_09_24_151401_create_suppliers_table.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/orders/index-ori.blade.php",
-		"/C/xampp/htdocs/lavina_erp/index.php",
-		"/C/xampp/htdocs/lavina_erp/vendor/laravelcollective/html/src/HtmlServiceProvider.php",
-		"/C/xampp/htdocs/lavina_erp/vendor/laravelcollective/html/src/FormFacade.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/inventories/purchase/index.blade.php",
-		"/C/xampp/htdocs/lavina_erp/app/Http/Controllers/MaterialPurchaseController.php",
-		"/C/xampp/htdocs/lavina_erp/app/OrderDetail.php",
-		"/C/xampp/htdocs/lavina_erp/app/Http/Requests/HumanRequest.php",
-		"/C/xampp/htdocs/lavina_erp/app/Http/Controllers/AdminUsersController.php",
-		"/C/xampp/htdocs/lavina_erp/resources/lang/en/validation.php",
-		"/C/xampp/htdocs/lavina_erp/app/Http/Requests/CustomerRequest.php",
-		"/C/xampp/htdocs/lavina_erp/app/Http/Controllers/SupplierController.php",
-		"/C/xampp/htdocs/lavina_erp/app/Http/Controllers/Controller.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/supplier/create.blade.php"
+		"/C/xampp/htdocs/lavina_erp/resources/views/orders/index-ori.blade.php"
 	],
 	"find":
 	{
@@ -730,6 +752,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Todo",
+			"TodoList",
+			"Todo",
 			"CountdownForm",
 			"CountDown",
 			"Clock",
@@ -854,10 +879,7 @@
 			"quantity",
 			"supplier",
 			"Supplier",
-			"supplier",
-			"Supplier",
-			"supplier",
-			"Description"
+			"supplier"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -875,8 +897,68 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/components/TodoApp.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 953,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								261,
+								261
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/playground/spread.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 62,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								62,
+								62
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1001,7 +1083,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 187.0,
+	"side_bar_width": 140.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
