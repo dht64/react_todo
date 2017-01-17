@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"search",
+				"searchText"
+			],
+			[
 				"light-g",
 				"light-grey-border"
 			],
@@ -510,38 +514,35 @@
 			[
 				"mon",
 				"moment"
-			],
-			[
-				"bw",
-				"bowner"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "app/components/Todo.jsx",
+			"file": "app/actions/actions.jsx",
 			"settings":
 			{
-				"buffer_size": 804,
+				"buffer_size": 391,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/styles/components/_todo.scss",
+			"file": "app/tests/actions/actions.test.jsx",
 			"settings":
 			{
-				"buffer_size": 361,
+				"buffer_size": 899,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/components/TodoApp.jsx",
+			"file": "webpack.config.js",
 			"settings":
 			{
-				"buffer_size": 1756,
+				"buffer_size": 1012,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -621,6 +622,8 @@
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/reactTodo/app/components/Todo.jsx",
+		"/C/xampp/htdocs/reactTodo/app/styles/components/_todo.scss",
 		"/C/xampp/htdocs/reactTodo/app/styles/app.scss",
 		"/C/xampp/htdocs/reactTodo/app/styles/components/_container.scss",
 		"/C/xampp/htdocs/reactTodo/app/styles/base/_variables.scss",
@@ -634,7 +637,6 @@
 		"/C/xampp/htdocs/reactTodo/app/components/TodoSearch.jsx",
 		"/C/xampp/htdocs/reactTodo/app/styles/components/_page-title.scss",
 		"/C/xampp/htdocs/reactTodo/app/tests/components/TodoApp.test.jsx",
-		"/C/xampp/htdocs/reactTodo/app/components/Todo.jsx",
 		"/C/xampp/htdocs/reactTodo/webpack.config.js",
 		"/C/xampp/htdocs/reactTodo/app/tests/components/Todo.test.jsx",
 		"/C/xampp/htdocs/reactTodo/playground/spread.js",
@@ -747,8 +749,7 @@
 		"/C/xampp/htdocs/lavina_erp/app/User.php",
 		"/C/xampp/htdocs/lavina_erp/database/seeds/UsersTableSeeder.php",
 		"/C/xampp/htdocs/lavina_erp/database/migrations/2014_10_12_000000_create_users_table.php",
-		"/E/Desktop/index.blade.php",
-		"/C/xampp/htdocs/lavina_erp/database/seeds/LeaveTableSeeder.php"
+		"/E/Desktop/index.blade.php"
 	],
 	"find":
 	{
@@ -911,47 +912,16 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/components/Todo.jsx",
+					"file": "app/actions/actions.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 804,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								727,
-								727
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/styles/components/_todo.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 361,
+						"buffer_size": 391,
 						"regions":
 						{
 						},
@@ -964,9 +934,9 @@
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"auto_complete": false,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -976,32 +946,63 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/components/TodoApp.jsx",
-					"semi_transient": true,
+					"buffer": 1,
+					"file": "app/tests/actions/actions.test.jsx",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1756,
+						"buffer_size": 899,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								602,
-								602
+								669,
+								669
 							]
 						],
 						"settings":
 						{
+							"auto_complete": false,
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 306.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "webpack.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1012,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								515,
+								515
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 102.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
