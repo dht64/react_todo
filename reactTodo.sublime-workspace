@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"light-g",
+				"light-grey-border"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"light",
+				"light-grey-border"
+			],
+			[
+				"comple",
+				"completedAt"
+			],
+			[
+				"compl",
+				"completedAt"
+			],
+			[
+				"render",
+				"renderDate"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"crea",
+				"createdAt"
+			],
+			[
+				"b",
+				"blur\t.blur()"
+			],
+			[
+				"filter",
+				"filteredTodos〔variable〕"
+			],
+			[
 				"string",
 				"stringTodos"
 			],
@@ -38,10 +78,6 @@
 			[
 				"todo",
 				"todoText"
-			],
-			[
-				"render",
-				"renderTodos"
 			],
 			[
 				"margi",
@@ -296,10 +332,6 @@
 				"cloneParent"
 			],
 			[
-				"padd",
-				"padding-right"
-			],
-			[
 				"pu",
 				"public"
 			],
@@ -482,48 +514,25 @@
 			[
 				"bw",
 				"bowner"
-			],
-			[
-				"num",
-				"num_deduct_leave"
-			],
-			[
-				"dele",
-				"delivery_at"
-			],
-			[
-				"deli",
-				"delivery_at"
-			],
-			[
-				"di",
-				"display"
-			],
-			[
-				"mar",
-				"margin"
-			],
-			[
-				"text",
-				"text-center"
-			],
-			[
-				"flex",
-				"flex-basis"
-			],
-			[
-				"fle",
-				"flex-start"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "app/api/TodoAPI.jsx",
+			"file": "app/components/Todo.jsx",
 			"settings":
 			{
-				"buffer_size": 400,
+				"buffer_size": 804,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/styles/components/_todo.scss",
+			"settings":
+			{
+				"buffer_size": 361,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -532,17 +541,7 @@
 			"file": "app/components/TodoApp.jsx",
 			"settings":
 			{
-				"buffer_size": 1257,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/tests/api/TodoAPI.test.jsx",
-			"settings":
-			{
-				"buffer_size": 371,
-				"encoding": "UTF-8",
+				"buffer_size": 1756,
 				"line_ending": "Windows"
 			}
 		}
@@ -612,26 +611,37 @@
 		"/C/xampp/htdocs/reactTodo/app",
 		"/C/xampp/htdocs/reactTodo/app/api",
 		"/C/xampp/htdocs/reactTodo/app/components",
+		"/C/xampp/htdocs/reactTodo/app/styles",
+		"/C/xampp/htdocs/reactTodo/app/styles/base",
+		"/C/xampp/htdocs/reactTodo/app/styles/components",
 		"/C/xampp/htdocs/reactTodo/app/tests",
 		"/C/xampp/htdocs/reactTodo/app/tests/api",
-		"/C/xampp/htdocs/reactTodo/app/tests/components"
+		"/C/xampp/htdocs/reactTodo/app/tests/components",
+		"/C/xampp/htdocs/reactTodo/playground"
 	],
 	"file_history":
 	[
-		"/C/xampp/htdocs/reactTodo/webpack.config.js",
+		"/C/xampp/htdocs/reactTodo/app/styles/app.scss",
+		"/C/xampp/htdocs/reactTodo/app/styles/components/_container.scss",
+		"/C/xampp/htdocs/reactTodo/app/styles/base/_variables.scss",
+		"/C/xampp/htdocs/reactTodo/app/api/TodoAPI.jsx",
+		"/C/xampp/htdocs/reactTodo/playground/moment-examples.js",
+		"/C/xampp/htdocs/reactTodo/app/tests/api/TodoAPI.test.jsx",
 		"/C/xampp/htdocs/reactTodo/app/components/TodoApp.jsx",
-		"/C/xampp/htdocs/reactTodo/app/components/Todo.jsx",
 		"/C/xampp/htdocs/reactTodo/app/components/TodoList.jsx",
+		"/C/xampp/htdocs/reactTodo/app/tests/components/TodoList.test.jsx",
+		"/C/xampp/htdocs/reactTodo/app/components/AddTodo.jsx",
+		"/C/xampp/htdocs/reactTodo/app/components/TodoSearch.jsx",
+		"/C/xampp/htdocs/reactTodo/app/styles/components/_page-title.scss",
 		"/C/xampp/htdocs/reactTodo/app/tests/components/TodoApp.test.jsx",
+		"/C/xampp/htdocs/reactTodo/app/components/Todo.jsx",
+		"/C/xampp/htdocs/reactTodo/webpack.config.js",
 		"/C/xampp/htdocs/reactTodo/app/tests/components/Todo.test.jsx",
 		"/C/xampp/htdocs/reactTodo/playground/spread.js",
 		"/C/xampp/htdocs/reactTodo/app/playground/spread.js",
-		"/C/xampp/htdocs/reactTodo/app/components/TodoSearch.jsx",
 		"/C/xampp/htdocs/reactTodo/app/tests/components/TodoSearch.test.jsx",
-		"/C/xampp/htdocs/reactTodo/app/tests/components/TodoList.test.jsx",
 		"/C/xampp/htdocs/reactTodo/app/app.jsx",
 		"/C/xampp/htdocs/reactTodo/app/tests/components/AddTodo.test.jsx",
-		"/C/xampp/htdocs/reactTodo/app/components/AddTodo.jsx",
 		"/C/xampp/htdocs/reactTodo/readme.md",
 		"/C/xampp/htdocs/reactBoilerplate3/app/app.jsx",
 		"/C/xampp/htdocs/reactBoilerplate3/app/styles/base/_variables.scss",
@@ -738,14 +748,7 @@
 		"/C/xampp/htdocs/lavina_erp/database/seeds/UsersTableSeeder.php",
 		"/C/xampp/htdocs/lavina_erp/database/migrations/2014_10_12_000000_create_users_table.php",
 		"/E/Desktop/index.blade.php",
-		"/C/xampp/htdocs/lavina_erp/database/seeds/LeaveTableSeeder.php",
-		"/C/xampp/htdocs/lavina_erp/database/seeds/DatabaseSeeder.php",
-		"/C/xampp/htdocs/lavina_erp/database/seeds/HumanTableSeeder.php",
-		"/C/xampp/htdocs/lavina_erp/database/migrations/2016_09_09_095707_create_leaves_table.php",
-		"/C/xampp/htdocs/lavina_erp/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
-		"/C/xampp/htdocs/lavina_erp/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasMany.php",
-		"/C/xampp/htdocs/lavina_erp/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOneOrMany.php",
-		"/C/xampp/htdocs/lavina_erp/app/Order.php"
+		"/C/xampp/htdocs/lavina_erp/database/seeds/LeaveTableSeeder.php"
 	],
 	"find":
 	{
@@ -913,49 +916,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app/api/TodoAPI.jsx",
+					"file": "app/components/Todo.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 400,
+						"buffer_size": 804,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								178,
-								178
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/components/TodoApp.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1257,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								442,
-								442
+								727,
+								727
 							]
 						],
 						"settings":
@@ -973,26 +946,56 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/tests/api/TodoAPI.test.jsx",
+					"buffer": 1,
+					"file": "app/styles/components/_todo.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 371,
+						"buffer_size": 361,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								37,
-								37
+								356,
+								356
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/components/TodoApp.jsx",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1756,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								602,
+								602
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1125,7 +1128,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 148.0,
+	"side_bar_width": 157.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
