@@ -4,6 +4,78 @@
 		"selected_items":
 		[
 			[
+				"fil",
+				"filteredTodos"
+			],
+			[
+				"ADD",
+				"ADD_TODOS"
+			],
+			[
+				"test",
+				"testTodoRef"
+			],
+			[
+				"cre",
+				"createdAt"
+			],
+			[
+				"Some",
+				"Something"
+			],
+			[
+				"compl",
+				"completedAt"
+			],
+			[
+				"com",
+				"completedAt"
+			],
+			[
+				"crea",
+				"createMockStore〔variable〕"
+			],
+			[
+				"snap",
+				"snapshot.val"
+			],
+			[
+				"sna",
+				"snapshot.val"
+			],
+			[
+				"child",
+				"child_added"
+			],
+			[
+				"chi",
+				"child"
+			],
+			[
+				"firebas",
+				"firebaseRef〔variable〕"
+			],
+			[
+				"firea",
+				"firebaseRef〔variable〕"
+			],
+			[
+				"firebase",
+				"firebaseRef"
+			],
+			[
+				"fireba",
+				"firebaseRef〔variable〕"
+			],
+			[
+				"fireb",
+				"firebaseRef〔variable〕"
+			],
+			[
+				"fire",
+				"firebaseRef"
+			],
+			[
 				"T",
 				"TodoAPI"
 			],
@@ -56,20 +128,12 @@
 				"completedAt"
 			],
 			[
-				"compl",
-				"completedAt"
-			],
-			[
 				"render",
 				"renderDate"
 			],
 			[
 				"time",
 				"timestamp"
-			],
-			[
-				"crea",
-				"createdAt"
 			],
 			[
 				"b",
@@ -450,70 +514,6 @@
 			[
 				"uniq",
 				"unique"
-			],
-			[
-				"margin",
-				"margin-top"
-			],
-			[
-				"btn",
-				"btn-pink"
-			],
-			[
-				"o",
-				"orderMonthly"
-			],
-			[
-				"this",
-				"thisMonth"
-			],
-			[
-				"purch",
-				"purchaseMonthly"
-			],
-			[
-				"all",
-				"allData2"
-			],
-			[
-				"sa",
-				"salaryMonthly"
-			],
-			[
-				"pur",
-				"purchaseMonthly"
-			],
-			[
-				"mer",
-				"mergeData"
-			],
-			[
-				"sala",
-				"salary"
-			],
-			[
-				"sal",
-				"salaryMonthly"
-			],
-			[
-				"array_repl",
-				"array_replace_recursive"
-			],
-			[
-				"for",
-				"foreach\tforeach …"
-			],
-			[
-				"co",
-				"color"
-			],
-			[
-				"borco",
-				"border-color"
-			],
-			[
-				"salary",
-				"salaryMonthly"
 			]
 		]
 	},
@@ -523,25 +523,17 @@
 			"file": "app/app.jsx",
 			"settings":
 			{
-				"buffer_size": 980,
+				"buffer_size": 872,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/tests/reducers/reducers.test.jsx",
+			"file": "app/components/login.jsx",
 			"settings":
 			{
-				"buffer_size": 1816,
+				"buffer_size": 515,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/reducers/reducers.jsx",
-			"settings":
-			{
-				"buffer_size": 1169,
 				"line_ending": "Windows"
 			}
 		}
@@ -586,7 +578,7 @@
 				"Snippet: html"
 			]
 		],
-		"width": 440.0
+		"width": 384.0
 	},
 	"console":
 	{
@@ -609,57 +601,58 @@
 	[
 		"/C/xampp/htdocs/reactTodo",
 		"/C/xampp/htdocs/reactTodo/app",
-		"/C/xampp/htdocs/reactTodo/app/actions",
-		"/C/xampp/htdocs/reactTodo/app/api",
 		"/C/xampp/htdocs/reactTodo/app/components",
-		"/C/xampp/htdocs/reactTodo/app/reducers",
-		"/C/xampp/htdocs/reactTodo/app/store",
-		"/C/xampp/htdocs/reactTodo/app/styles/base",
-		"/C/xampp/htdocs/reactTodo/app/styles/components",
-		"/C/xampp/htdocs/reactTodo/app/tests",
-		"/C/xampp/htdocs/reactTodo/app/tests/actions",
-		"/C/xampp/htdocs/reactTodo/app/tests/components",
-		"/C/xampp/htdocs/reactTodo/app/tests/reducers",
-		"/C/xampp/htdocs/reactTodo/playground"
+		"/C/xampp/htdocs/reactTodo/config",
+		"/C/xampp/htdocs/reactTodo/public"
 	],
 	"file_history":
 	[
-		"/C/xampp/htdocs/reactTodo/app/tests/actions/actions.test.jsx",
-		"/C/xampp/htdocs/reactTodo/app/reducers/reducers.jsx",
-		"/C/xampp/htdocs/reactTodo/app/actions/actions.jsx",
-		"/C/xampp/htdocs/reactTodo/app/components/TodoApp.jsx",
-		"/C/xampp/htdocs/reactTodo/app/components/AddTodo.jsx",
-		"/C/xampp/htdocs/reactTodo/app/tests/components/TodoSearch.test.jsx",
+		"/C/xampp/htdocs/reactTodo/config/test.env",
+		"/C/xampp/htdocs/reactTodo/config/development.env",
+		"/C/xampp/htdocs/reactTodo/app/firebase/index.js",
+		"/C/xampp/htdocs/reactTodo/webpack.config.js",
+		"/C/xampp/htdocs/reactTodo/package.json",
+		"/C/xampp/htdocs/reactTodo/.gitignore",
 		"/C/xampp/htdocs/reactTodo/app/components/TodoList.jsx",
-		"/C/xampp/htdocs/reactTodo/app/components/TodoSearch.jsx",
-		"/C/xampp/htdocs/reactTodo/app/api/TodoAPI.jsx",
 		"/C/xampp/htdocs/reactTodo/app/app.jsx",
+		"/C/xampp/htdocs/reactTodo/app/api/TodoAPI.jsx",
+		"/C/xampp/htdocs/reactTodo/app/actions/actions.jsx",
+		"/C/xampp/htdocs/reactTodo/app/tests/actions/actions.test.jsx",
+		"/C/xampp/htdocs/reactTodo/app/tests/api/TodoAPI.test.jsx",
+		"/C/xampp/htdocs/reactTodo/app/tests/api/TodoAPI.test.pureReact.jsx",
+		"/C/xampp/htdocs/reactTodo/app/api/TodoAPI_pureReact.jsx",
+		"/C/xampp/htdocs/reactTodo/app/app_react-redux.jsx",
+		"/C/xampp/htdocs/reactTodo/app/tests/components/Todo.test.jsx",
+		"/C/xampp/htdocs/reactTodo/app/tests/reducers/reducers.test.jsx",
+		"/C/xampp/htdocs/reactTodo/app/reducers/reducers.jsx",
+		"/C/xampp/htdocs/reactTodo/app/tests/components/AddTodo.test.jsx",
+		"/C/xampp/htdocs/reactTodo/app/components/Todo.jsx",
+		"/C/xampp/htdocs/reactTodo/app/components/AddTodo.jsx",
+		"/C/xampp/htdocs/reactTodo/app/store/configureStore.jsx",
+		"/C/xampp/htdocs/reactTodo/app/components/AddTodo_pureReact.jsx",
+		"/C/xampp/htdocs/reactTodo/app/components/TodoApp.jsx",
+		"/C/xampp/htdocs/reactTodo/app/reducers/reducers_localStorage..jsx",
+		"/C/xampp/htdocs/reactTodo/playground/firebase/index.js",
+		"/C/xampp/htdocs/reactTodo/app/tests/components/TodoSearch.test.jsx",
+		"/C/xampp/htdocs/reactTodo/app/components/TodoSearch.jsx",
 		"/C/xampp/htdocs/reactTodo/app/components/TodoSearch_pureReact.jsx",
 		"/C/xampp/htdocs/reactTodo/app/tests/components/TodoSearch.test.pureReact.jsx",
-		"/C/xampp/htdocs/reactTodo/app/tests/components/AddTodo.test.jsx",
 		"/C/xampp/htdocs/reactTodo/app/tests/components/AddTodo.test.pureReact.jsx",
-		"/C/xampp/htdocs/reactTodo/app/components/AddTodo_pureReact.jsx",
 		"/C/xampp/htdocs/reactTodo/app/tests/components/TodoList.test.jsx",
 		"/C/xampp/htdocs/reactTodo/app/tests/components/TodoApp.test.jsx",
-		"/C/xampp/htdocs/reactTodo/app/store/configureStore.jsx",
 		"/C/xampp/htdocs/reactTodo/app/tests/components/TodoList.test.pureReact.jsx",
 		"/C/xampp/htdocs/reactTodo/app/tests/components/TodoApp.test.pureReact.jsx",
 		"/C/xampp/htdocs/reactTodo/app/tests/components/Todo.test.pureReact.jsx",
 		"/C/xampp/htdocs/reactTodo/app/tests/components/TodoApp_pureReact.test.jsx",
-		"/C/xampp/htdocs/reactTodo/app/tests/components/Todo.test.jsx",
-		"/C/xampp/htdocs/reactTodo/app/components/Todo.jsx",
 		"/C/xampp/htdocs/reactTodo/app/tests/components/Todo_pureReact.test.jsx",
 		"/C/xampp/htdocs/reactTodo/app/components/TodoList_pureReact.jsx",
 		"/C/xampp/htdocs/reactTodo/app/components/Todo_pureReact.jsx",
 		"/C/xampp/htdocs/reactTodo/app/components/TodoApp_pureReact.jsx",
-		"/C/xampp/htdocs/reactTodo/app/tests/reducers/reducers.test.jsx",
-		"/C/xampp/htdocs/reactTodo/webpack.config.js",
 		"/C/xampp/htdocs/reactTodo/app/styles/components/_todo.scss",
 		"/C/xampp/htdocs/reactTodo/app/styles/app.scss",
 		"/C/xampp/htdocs/reactTodo/app/styles/components/_container.scss",
 		"/C/xampp/htdocs/reactTodo/app/styles/base/_variables.scss",
 		"/C/xampp/htdocs/reactTodo/playground/moment-examples.js",
-		"/C/xampp/htdocs/reactTodo/app/tests/api/TodoAPI.test.jsx",
 		"/C/xampp/htdocs/reactTodo/app/styles/components/_page-title.scss",
 		"/C/xampp/htdocs/reactTodo/playground/spread.js",
 		"/C/xampp/htdocs/reactTodo/app/playground/spread.js",
@@ -741,17 +734,7 @@
 		"/C/xampp/htdocs/lavina_erp/vendor/composer/ClassLoader.php",
 		"/C/xampp/htdocs/lavina_erp/config/app.php",
 		"/C/xampp/htdocs/lavina_erp/vendor/guzzlehttp/guzzle/src/Client.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/chart/index.blade.php",
-		"/C/xampp/htdocs/lavina_erp/database/migrations/2016_09_19_104036_create_orders_table.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/orders/edit.blade.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/orders/index.blade.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/salaries/index.blade.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/production/index.blade.php",
-		"/C/xampp/htdocs/lavina_erp/app/Http/Controllers/ProductionController.php",
-		"/C/xampp/htdocs/lavina_erp/bootstrap/cache/services-ori.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/inventories/purchase/create.blade.php",
-		"/C/xampp/htdocs/lavina_erp/database/migrations/2016_11_22_051212_create_order_details_table.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/humans/create.blade.php"
+		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/chart/index.blade.php"
 	],
 	"find":
 	{
@@ -769,6 +752,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"AUTH_DOMAIN",
+			"DATABASE_URL",
+			"STORAGE_BUCKET",
+			"API_KEY",
+			"child_added",
 			"reducers",
 			"Todo",
 			"TodoList",
@@ -891,12 +879,7 @@
 			"signup",
 			"form4",
 			"form2",
-			"form3",
-			"\">\n",
-			"Quantity",
-			"quantity",
-			"supplier",
-			"Supplier"
+			"form3"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -923,15 +906,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 980,
+						"buffer_size": 872,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								455,
-								455
+								619,
+								619
 							]
 						],
 						"settings":
@@ -944,67 +927,37 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/tests/reducers/reducers.test.jsx",
+					"file": "app/components/login.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1816,
+						"buffer_size": 515,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1701,
-								1701
+								373,
+								373
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 799.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/reducers/reducers.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1169,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1131,7 +1084,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 196.0,
+	"side_bar_width": 198.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
