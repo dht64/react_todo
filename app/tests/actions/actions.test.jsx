@@ -102,7 +102,6 @@ describe('Actions', () => {
 				uid = user.id;
 				todosRef = firebaseRef.child(`users/${uid}/todos`);
 				
-				todosRef.push({text: "Something"});
 				return todosRef.remove();
 			}).then(() => {
 				testTodoRef = todosRef.push();
