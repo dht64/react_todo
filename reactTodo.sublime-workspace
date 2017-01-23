@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"todos",
+				"todosRef"
+			],
+			[
+				"cre",
+				"credential"
+			],
+			[
+				"todo",
+				"todosRef"
+			],
+			[
+				"aut",
+				"authData"
+			],
+			[
+				"auth",
+				"authReducer"
+			],
+			[
+				"has",
+				"hashHistory"
+			],
+			[
+				"Todo",
+				"TodoApp〔variable〕"
+			],
+			[
+				"getS",
+				"getState"
+			],
+			[
 				"fil",
 				"filteredTodos"
 			],
@@ -14,10 +46,6 @@
 			[
 				"test",
 				"testTodoRef"
-			],
-			[
-				"cre",
-				"createdAt"
 			],
 			[
 				"Some",
@@ -78,10 +106,6 @@
 			[
 				"T",
 				"TodoAPI"
-			],
-			[
-				"Todo",
-				"TodoSearch"
 			],
 			[
 				"sear",
@@ -162,10 +186,6 @@
 			[
 				"pers",
 				"personTwo"
-			],
-			[
-				"todo",
-				"todoText"
 			],
 			[
 				"margi",
@@ -494,47 +514,18 @@
 			[
 				"Cus",
 				"CustomerRequest"
-			],
-			[
-				"hum",
-				"humanId"
-			],
-			[
-				"hu",
-				"humanId"
-			],
-			[
-				"human",
-				"human"
-			],
-			[
-				"cus",
-				"customers"
-			],
-			[
-				"uniq",
-				"unique"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "app/app.jsx",
+			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 872,
+				"buffer_size": 1425,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/components/login.jsx",
-			"settings":
-			{
-				"buffer_size": 515,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -545,7 +536,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 152.0,
 		"last_filter": "package",
 		"selected_items":
 		[
@@ -578,7 +569,7 @@
 				"Snippet: html"
 			]
 		],
-		"width": 384.0
+		"width": 528.0
 	},
 	"console":
 	{
@@ -601,36 +592,52 @@
 	[
 		"/C/xampp/htdocs/reactTodo",
 		"/C/xampp/htdocs/reactTodo/app",
-		"/C/xampp/htdocs/reactTodo/app/components",
+		"/C/xampp/htdocs/reactTodo/app/actions",
+		"/C/xampp/htdocs/reactTodo/app/api",
+		"/C/xampp/htdocs/reactTodo/app/firebase",
+		"/C/xampp/htdocs/reactTodo/app/reducers",
+		"/C/xampp/htdocs/reactTodo/app/router",
+		"/C/xampp/htdocs/reactTodo/app/store",
+		"/C/xampp/htdocs/reactTodo/app/tests",
+		"/C/xampp/htdocs/reactTodo/app/tests/actions",
+		"/C/xampp/htdocs/reactTodo/app/tests/components",
+		"/C/xampp/htdocs/reactTodo/app/tests/reducers",
 		"/C/xampp/htdocs/reactTodo/config",
 		"/C/xampp/htdocs/reactTodo/public"
 	],
 	"file_history":
 	[
-		"/C/xampp/htdocs/reactTodo/config/test.env",
-		"/C/xampp/htdocs/reactTodo/config/development.env",
-		"/C/xampp/htdocs/reactTodo/app/firebase/index.js",
-		"/C/xampp/htdocs/reactTodo/webpack.config.js",
-		"/C/xampp/htdocs/reactTodo/package.json",
 		"/C/xampp/htdocs/reactTodo/.gitignore",
-		"/C/xampp/htdocs/reactTodo/app/components/TodoList.jsx",
-		"/C/xampp/htdocs/reactTodo/app/app.jsx",
-		"/C/xampp/htdocs/reactTodo/app/api/TodoAPI.jsx",
 		"/C/xampp/htdocs/reactTodo/app/actions/actions.jsx",
+		"/C/xampp/htdocs/reactTodo/app/app.jsx",
+		"/C/xampp/htdocs/reactTodo/app/reducers/reducers.jsx",
+		"/C/xampp/htdocs/reactTodo/app/tests/reducers/reducers.test.jsx",
 		"/C/xampp/htdocs/reactTodo/app/tests/actions/actions.test.jsx",
+		"/C/xampp/htdocs/reactTodo/webpack.config.js",
+		"/C/xampp/htdocs/reactTodo/config/test.env",
+		"/C/xampp/htdocs/reactTodo/app/router/index.jsx",
+		"/C/xampp/htdocs/reactTodo/app/store/configureStore.jsx",
+		"/C/xampp/htdocs/reactTodo/app/components/Login.jsx",
+		"/C/xampp/htdocs/reactTodo/app/components/TodoApp.jsx",
+		"/C/xampp/htdocs/reactTodo/app/tests/components/TodoApp.test.jsx",
+		"/C/xampp/htdocs/reactTodo/app/firebase/index.js",
+		"/C/xampp/htdocs/reactTodo/app/styles/components/_callout-auth.scss",
+		"/C/xampp/htdocs/reactTodo/app/styles/app.scss",
+		"/C/xampp/htdocs/reactTodo/app/styles/components/_page-actions.scss",
+		"/C/xampp/htdocs/reactTodo/app/components/Todo.jsx",
+		"/C/xampp/htdocs/reactTodo/app/components/login.jsx",
+		"/C/xampp/htdocs/reactTodo/config/development.env",
+		"/C/xampp/htdocs/reactTodo/package.json",
+		"/C/xampp/htdocs/reactTodo/app/components/TodoList.jsx",
+		"/C/xampp/htdocs/reactTodo/app/api/TodoAPI.jsx",
 		"/C/xampp/htdocs/reactTodo/app/tests/api/TodoAPI.test.jsx",
 		"/C/xampp/htdocs/reactTodo/app/tests/api/TodoAPI.test.pureReact.jsx",
 		"/C/xampp/htdocs/reactTodo/app/api/TodoAPI_pureReact.jsx",
 		"/C/xampp/htdocs/reactTodo/app/app_react-redux.jsx",
 		"/C/xampp/htdocs/reactTodo/app/tests/components/Todo.test.jsx",
-		"/C/xampp/htdocs/reactTodo/app/tests/reducers/reducers.test.jsx",
-		"/C/xampp/htdocs/reactTodo/app/reducers/reducers.jsx",
 		"/C/xampp/htdocs/reactTodo/app/tests/components/AddTodo.test.jsx",
-		"/C/xampp/htdocs/reactTodo/app/components/Todo.jsx",
 		"/C/xampp/htdocs/reactTodo/app/components/AddTodo.jsx",
-		"/C/xampp/htdocs/reactTodo/app/store/configureStore.jsx",
 		"/C/xampp/htdocs/reactTodo/app/components/AddTodo_pureReact.jsx",
-		"/C/xampp/htdocs/reactTodo/app/components/TodoApp.jsx",
 		"/C/xampp/htdocs/reactTodo/app/reducers/reducers_localStorage..jsx",
 		"/C/xampp/htdocs/reactTodo/playground/firebase/index.js",
 		"/C/xampp/htdocs/reactTodo/app/tests/components/TodoSearch.test.jsx",
@@ -639,7 +646,6 @@
 		"/C/xampp/htdocs/reactTodo/app/tests/components/TodoSearch.test.pureReact.jsx",
 		"/C/xampp/htdocs/reactTodo/app/tests/components/AddTodo.test.pureReact.jsx",
 		"/C/xampp/htdocs/reactTodo/app/tests/components/TodoList.test.jsx",
-		"/C/xampp/htdocs/reactTodo/app/tests/components/TodoApp.test.jsx",
 		"/C/xampp/htdocs/reactTodo/app/tests/components/TodoList.test.pureReact.jsx",
 		"/C/xampp/htdocs/reactTodo/app/tests/components/TodoApp.test.pureReact.jsx",
 		"/C/xampp/htdocs/reactTodo/app/tests/components/Todo.test.pureReact.jsx",
@@ -649,7 +655,6 @@
 		"/C/xampp/htdocs/reactTodo/app/components/Todo_pureReact.jsx",
 		"/C/xampp/htdocs/reactTodo/app/components/TodoApp_pureReact.jsx",
 		"/C/xampp/htdocs/reactTodo/app/styles/components/_todo.scss",
-		"/C/xampp/htdocs/reactTodo/app/styles/app.scss",
 		"/C/xampp/htdocs/reactTodo/app/styles/components/_container.scss",
 		"/C/xampp/htdocs/reactTodo/app/styles/base/_variables.scss",
 		"/C/xampp/htdocs/reactTodo/playground/moment-examples.js",
@@ -729,12 +734,7 @@
 		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/inventories/material/edit.blade.php",
 		"/C/xampp/htdocs/lavina_erp/resources/views/auth/login.blade.php",
 		"/C/xampp/htdocs/lavina_erp/.env",
-		"/C/xampp/htdocs/lavina_erp/config/mail.php",
-		"/C/xampp/htdocs/lavina_erp/app/Http/Controllers/OrderController.php",
-		"/C/xampp/htdocs/lavina_erp/vendor/composer/ClassLoader.php",
-		"/C/xampp/htdocs/lavina_erp/config/app.php",
-		"/C/xampp/htdocs/lavina_erp/vendor/guzzlehttp/guzzle/src/Client.php",
-		"/C/xampp/htdocs/lavina_erp/resources/views/bowner/chart/index.blade.php"
+		"/C/xampp/htdocs/lavina_erp/config/mail.php"
 	],
 	"find":
 	{
@@ -752,6 +752,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"GITHUB_ACCESS_TOKEN",
 			"AUTH_DOMAIN",
 			"DATABASE_URL",
 			"STORAGE_BUCKET",
@@ -878,8 +879,7 @@
 			"Signup",
 			"signup",
 			"form4",
-			"form2",
-			"form3"
+			"form2"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -897,61 +897,32 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/app.jsx",
+					"file": "package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 872,
+						"buffer_size": 1425,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								619,
-								619
+								305,
+								305
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/components/login.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 515,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								373,
-								373
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2
+							"auto_complete": true,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1084,7 +1055,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 198.0,
+	"side_bar_width": 202.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
