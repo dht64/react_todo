@@ -5,6 +5,6 @@
 </p>
 
 ### Description:
-A Todo Application built on React-Redux with integrated Github account login.
+A Todo Application built on React-Redux integrated with Github account login.
 
-### [Demo](http://sleepy-beyond-22759.herokuapp.com/)
+### [Demo link](http://sleepy-beyond-22759.herokuapp.com/)
