@@ -1,7 +1,7 @@
 <p align="center">
-	<a href="#"><img height="150" src="http://vincent.billey.me/talks/react-putting-js-in-your-face/assets/react-logo.png"></a>
-	<a href="#"><img height="150" src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo-title-dark.png"></a>
-	<a href="#"><img height="150" src="https://1.bp.blogspot.com/-YIfQT6q8ZM4/Vzyq5z1B8HI/AAAAAAAAAAc/UmWSSMLKtKgtH7CACElUp12zXkrPK5UoACLcB/s1600/image00.png"></a>
+	<a href="https://facebook.github.io/react/"><img height="150" src="http://vincent.billey.me/talks/react-putting-js-in-your-face/assets/react-logo.png"></a>
+	<a href="http://redux.js.org/"><img height="150" src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo-title-dark.png"></a>
+	<a href="https://firebase.google.com/"><img height="150" src="https://1.bp.blogspot.com/-YIfQT6q8ZM4/Vzyq5z1B8HI/AAAAAAAAAAc/UmWSSMLKtKgtH7CACElUp12zXkrPK5UoACLcB/s1600/image00.png"></a>
 </p>
 
 ### Description:
